@@ -1,52 +1,79 @@
-# MERN Stack Capstone Project
+# Welcome Shacney Hospital Management System (SHMS) project
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+## Project info
 
-## Assignment Overview
+**URL**: 
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+**Use your preferred IDE**
 
-## Getting Started
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected.
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## Files Included
+Follow these steps:
 
-- `Week8-Assignment.md`: Detailed assignment instructions
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-## Requirements
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
-- npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+# Step 3: Install the necessary dependencies.
+npm i
 
-## Project Ideas
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+**Edit a file directly in GitHub**
 
-## Submission
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+**Use GitHub Codespaces**
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## Resources
+## What technologies are used for this project?
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+You can easily deploy this project using Netlify:
+
+Push your project to a Git repository (GitHub, GitLab, or Bitbucket).
+
+Go to Netlify and log in or sign up.
+
+Click "Add new site" > "Import an existing project".
+
+Choose your Git provider and authorize Netlify.
+
+Select your repository, then configure the build settings (if needed) and click Deploy Site.
+
+That's it! Netlify will build and host your site.
+
+## Can I connect a custom domain to my Netlify project?
+Yes, you can!
+
+To connect a domain:
+
+Go to your site dashboard on Netlify.
+
+Click "Site settings" > "Domain management" > "Add custom domain".
+
+Enter your domain and follow the steps to verify and update DNS settings.
+
+Read more here: https://docs.netlify.com/domains/get-started-with-domains/
